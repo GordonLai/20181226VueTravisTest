@@ -5,8 +5,6 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'hash', // history | hash
-  base: __dirname,
   routes: [
     {
       path: '/',

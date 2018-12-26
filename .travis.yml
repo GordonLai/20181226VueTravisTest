@@ -10,6 +10,6 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep-history: true
-  loacal-dir: ./dist # build files path
-  # on: # 觸發
+  loacal-dir: ./dist # buile files path
+  # on:
   #   branch: master
