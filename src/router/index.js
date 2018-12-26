@@ -5,7 +5,8 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
-  base: '/20181226VueTravisTest/',
+  mode: 'history', // history | hash
+  base: __dirname,
   routes: [
     {
       path: '/',
