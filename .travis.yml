@@ -1,0 +1,15 @@
+language: node_js
+node_js: node
+install: 
+  - npm install
+script:
+  - npm run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  loacal-dir: ./dist # build files path
+  # on: # 觸發
+  #   branch: master
